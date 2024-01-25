@@ -29,8 +29,15 @@ header {
 
 }
 
+nav p {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
 .logo img {
-    max-width: 125px;
+    margin-left: 15px;
+    max-width: 80px;
 }
 
 .Logo1 img {
@@ -91,23 +98,6 @@ nav a:hover {
     padding: 100px 0;
     background-color: #ede4d6;
     text-align: center;
-    border-bottom: #47341c solid 1px;
-}
-
-.menu-item {
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 30px;
-    line-height: 25px;
-}
-
-.menu-item ul {
-    list-style-type: none;
-
-}
-
-.menu-item ul li {
-    margin-bottom: 5px;
 }
 
 .menu h2 {
