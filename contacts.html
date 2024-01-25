@@ -14,7 +14,7 @@
                 <p>Cozy Cup Cafe</p>
             </div>
             <ul>
-                <li><a href="#index">Home</a>
+                <li><a href="index.html">Home</a>
                 </li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -31,11 +31,32 @@
         <p>email: 202180220@psu.palawan.edu.ph</p>
         <p>Have questions or feedback? Reach out to us...</p>
 
-        
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2023 LAVA JAVA Café. All rights reserved.</p>
+        <div class="foot-nav">
+            <nav class="nav-foot">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>2023 Cozy Cup Café. All rights reserved.</p>
     </footer>
 </body>
 </html>
