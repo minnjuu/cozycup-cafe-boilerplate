@@ -240,3 +240,22 @@ button:hover {
     border-radius: 100px;
     border: 2px solid;
 }
+
+.staffs {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.member img {
+    width: 150px;
+    border-radius: 100px;
+    border: 2px solid;
+}
+
+.main-logo img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    filter: drop-shadow(10px 10px 10px rgba(255, 255, 255, 0));
+}
