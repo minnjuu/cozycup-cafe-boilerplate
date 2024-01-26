@@ -17,7 +17,8 @@ body {
 }
 
 header {
-    background-color: #47341c;
+    background: rgb(41, 25, 10);
+    background: linear-gradient(90deg, rgba(41, 25, 10, 1) 0%, rgba(121, 54, 9, 1) 53%, rgba(158, 129, 109, 1) 100%);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
@@ -48,17 +49,19 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #ebe1dd;
     font-weight: bold;
+    font-size: 20px;
     transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #7e685b;
+.head-nav a:hover {
+    color: #2b2623;
 }
 
 .hero {
@@ -159,6 +162,10 @@ footer {
     align-items: center;
 }
 
+.nav-foot a:hover {
+    color: #7e685b;
+}
+
 .social {
     padding-bottom: 20px;
     padding-top: 20px;
@@ -174,7 +181,7 @@ footer {
     display: inline-block;
     text-align: center;
     border-radius: 50%;
-    margin: 0 8px;
+    margin: 0 30px;
     transition: box-shadow 0.3s ease, opacity 0.3s ease;
 }
 
@@ -231,7 +238,7 @@ button:hover {
 }
 
 .staffs {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
 }
 
@@ -242,7 +249,7 @@ button:hover {
 }
 
 .staffs {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
 }
 
