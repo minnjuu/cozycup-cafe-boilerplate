@@ -229,3 +229,14 @@ button:hover {
     max-width: 600px;
     border-radius: 20px;
 }
+
+.staffs {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.member img {
+    width: 150px;
+    border-radius: 100px;
+    border: 2px solid;
+}
