@@ -213,10 +213,10 @@ textarea {
 }
 
 button {
-    background-color: #333;
+    background-color: transparent;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -257,5 +257,8 @@ button:hover {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    filter: drop-shadow(10px 10px 10px rgba(255, 255, 255, 0));
+}
+
+.main-logo {
+    filter: drop-shadow(1px 10px 5px rgb(0, 0, 0));
 }
