@@ -221,10 +221,11 @@ textarea {
 
 button {
     background-color: transparent;
-    color: white;
+    color: #ebe1dd;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
