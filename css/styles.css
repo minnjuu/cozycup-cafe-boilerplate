@@ -1,5 +1,11 @@
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -11,20 +17,28 @@ body {
 }
 
 header {
-    background-color: #47341c;
+    background: rgb(41, 25, 10);
+    background: linear-gradient(90deg, rgba(41, 25, 10, 1) 0%, rgba(121, 54, 9, 1) 53%, rgba(158, 129, 109, 1) 100%);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 
-nav {
+.head-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
+}
+
+nav p {
+    color: #ebe1dd;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
 }
 
 .logo img {
-    max-width: 125px;
+    margin-left: 15px;
+    max-width: 80px;
 }
 
 .Logo1 img {
@@ -35,25 +49,31 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #ebe1dd;
     font-weight: bold;
+    font-size: 20px;
     transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #7e685b;
+.head-nav a:hover {
+    color: #2b2623;
 }
 
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('hero-bg.jpg');
-    background-size: cover;
-    color: white;
+    height: 400px;
+    background-image: url('/img/background.jpg');
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    color: #ebe1dd;
+    text-shadow: 2px 2px 10px #000000;
+
 }
 
 .hero h1 {
@@ -70,19 +90,21 @@ nav a:hover {
     display: inline-block;
     padding: 10px 20px;
     background-color: #4c3c32;
-    color: white;
+    color: #ebe1dd;
     text-decoration: none;
     border-radius: 5px;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .cta-button:hover {
     background-color: #7e685b;
+    box-shadow: 4px 4px 8px rgba(104, 101, 101, 0.5);
 }
 
 .menu {
     padding: 100px 0;
+    background-color: #ede4d6;
     text-align: center;
-    color: white;
 }
 
 .menu h2 {
@@ -94,6 +116,7 @@ nav a:hover {
     padding: 100px 0;
     text-align: center;
     background-color: #ede4d6;
+    height: auto;
 }
 
 .about h2 {
@@ -111,7 +134,8 @@ nav a:hover {
     padding: 100px 0;
     text-align: center;
     background-color: #4c3c32;
-    color: white;
+    color: #ebe1dd;
+    height: auto;
 }
 
 .contact h2 {
@@ -127,7 +151,122 @@ nav a:hover {
 footer {
     font-family: Arial, sans-serif;
     background-color: #221d1a;
-    color: white;
+    color: #ebe1dd;
     text-align: center;
     padding: 20px 0;
+}
+
+.foot-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-foot a:hover {
+    color: #7e685b;
+}
+
+.social {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.social a {
+    font-size: 25px;
+    color: inherit;
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 30px;
+    transition: box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+.social a:hover {
+    box-shadow: 0 0 10px rgba(198, 196, 196, 0.5);
+    opacity: 0.75;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+textarea {
+    height: 100px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: transparent;
+    color: #ebe1dd;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.map img {
+    margin-left: 15px;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.staffs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.member img {
+    width: 150px;
+    border-radius: 100px;
+    border: 2px solid;
+}
+
+.staffs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.member img {
+    width: 150px;
+    border-radius: 100px;
+    border: 2px solid;
+}
+
+.main-logo img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.main-logo {
+    filter: drop-shadow(1px 10px 5px rgb(0, 0, 0));
 }
