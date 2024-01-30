@@ -283,6 +283,10 @@ button:hover {
     max-width: 500px;
 }
 
+.price {
+    font-weight: bold;
+}
+
 .menu-item {
     padding: 10px;
     padding-bottom: 20px;
