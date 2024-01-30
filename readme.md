@@ -34,8 +34,8 @@ Cozy Cup Coffee House Contacts Page
 
 **Name:** Nick Francis Bundal <br>
 **Email:** nnikeetmg@gmail.com <br>
-<a href="https://web.facebook.com/FrancineCarrelSaenzDiaz360"><img src="/img/Facebook.png" alt="facebook"></a>
-<a href="https://github.com/minnjuu"><img src="/img/Github.png" alt="github"></a>
+<a href="https://web.facebook.com/FrancineCarrelSaenzDiaz360"><img src="/img/Facebook.png" alt="facebook" width="50"></a>
+<a href="https://github.com/minnjuu"><img src="/img/Github.png" alt="github" width="50"></a>
 <br>
 <br>
 
@@ -44,8 +44,8 @@ Cozy Cup Coffee House Contacts Page
 **Name:** John Bryan Macalinao <br>
 **Email:** zynxmyxlynx.50@gmail.com <br>
 
-<a href="https://web.facebook.com/Brynt.Mcln"><img src="/img/Facebook.png" alt="facebook"></a>
-<a href="https://github.com/BryzMcln"><img src="/img/Github.png" alt="github"></a>
+<a href="https://web.facebook.com/Brynt.Mcln"><img src="/img/Facebook.png" alt="facebook" width="50"></a>
+<a href="https://github.com/BryzMcln"><img src="/img/Github.png" alt="github" width="50"></a>
 
 
 
