@@ -102,7 +102,13 @@ nav a {
 
 .menu {
     padding: 100px 0;
-    background-color: #ede4d6;
+    text-align: center;
+    padding: 150px 0;
+    height: 1000px;
+    background-image: url('/img/background.jpg');
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    color: #ebe1dd;
     text-align: center;
 }
 
@@ -288,6 +294,9 @@ button:hover {
 }
 
 .menu-item {
+    background: rgb(41, 25, 10);
+    background: linear-gradient(180deg, rgba(41, 25, 10, 1) 7%, rgba(168, 128, 105, 1) 53%, rgba(158, 129, 109, 1) 93%);
+    color: #381a09;
     padding: 10px;
     padding-bottom: 20px;
     margin: 0 auto;
