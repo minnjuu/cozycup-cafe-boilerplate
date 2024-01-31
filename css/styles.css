@@ -134,7 +134,7 @@ nav a {
 }
 
 .menu h2 {
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
@@ -315,9 +315,9 @@ button:hover {
 }
 
 .menu-item {
-    background: rgb(41, 25, 10);
-    background: linear-gradient(180deg, rgba(41, 25, 10, 1) 7%, rgba(168, 128, 105, 1) 53%, rgba(158, 129, 109, 1) 93%);
-    color: #381a09;
+    background: rgb(170, 147, 125);
+    background: radial-gradient(circle, rgba(170, 147, 125, 1) 0%, rgba(168, 128, 105, 1) 42%, rgba(78, 65, 56, 1) 88%);
+    color: #ebe1dd;
     padding: 10px;
     padding-bottom: 20px;
     margin: 0 auto;
@@ -327,9 +327,15 @@ button:hover {
     border: #381a09 2px solid;
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     max-width: 500px;
+    font-weight: bold;
 }
 
 .menu-item li {
     list-style: none;
+}
+
+.menu-item h3 {
+    font-size: 20px;
 }
