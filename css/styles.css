@@ -314,8 +314,10 @@ button:hover {
 }
 
 .menu-item {
-    background: rgb(170, 147, 125);
-    background: radial-gradient(circle, rgba(170, 147, 125, 1) 0%, rgba(168, 128, 105, 1) 42%, rgba(78, 65, 56, 1) 88%);
+    /* background: rgb(170, 147, 125);
+    background: radial-gradient(circle, rgba(170, 147, 125, 1) 0%, rgba(168, 128, 105, 1) 42%, rgba(78, 65, 56, 1) 88%); */
+    background: transparent;
+    backdrop-filter: blur(30px);
     color: #ebe1dd;
     padding: 10px;
     padding-bottom: 20px;
